@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+#signupForm {
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.heading {
+    color: white;
+    font-weight: 400;
+    font-size: 64px;
+}
+
+.inputs {
+    width: 100%;
+}
+
+input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    padding: 15px 0;
+    outline: none;
+}
+
+input::placeholder, input:focus{
+    color: #fff;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+input:hover {
+    outline: none;
+}
+
+.btn {
+    border: none;
+    background-color: white;
+    color: black;
+    padding: 8px 50px;
+    margin-top: 50px;
+    color: #000;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+.customPadding {
+    padding-top: 30px;
+}
+
+.customColor{
+    color: #fff;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+
